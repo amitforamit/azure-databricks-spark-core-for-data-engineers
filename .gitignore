@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Databricks
+.databricks
+.databricks/
+*.pyc
+
+# Spark
+metastore_db/
+derby.log
+.sparkStaging/
+
+# Delta Lake
+_delta_log/
+.checkpoint/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local environment files
+.env
+.env.local
+
+# Test coverage
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
